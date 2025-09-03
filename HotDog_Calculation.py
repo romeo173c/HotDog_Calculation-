@@ -16,17 +16,17 @@ def main ():
 
     
     bun_package = 0 
-    total_buns = 0
-    while total_buns < total_needed:
-            total_buns += 8
+    buns = 0
+    while buns < total_needed:
+            buns += 8
             bun_package += 1
 
     leftover_hotdogs = hotdogs - total_needed
-    leftover_buns =  total_buns - total_needed
+    leftover_buns =  buns - total_needed
 
     #make a menu that will print the results 
 
-    print("We did all the heavy lifting on the Math side and here are our results")
+    print("We did all the heavy lifting on the Math side and here are the results")
     print(f"The hot dog packages required are {hotdog_package} and the buns required are {bun_package}")
     print(f"Your left over hotdogs will be {leftover_hotdogs} and your left over buns will be {leftover_buns}")
     print("Enjoy the party and don't forget to same us some too :) ") 
